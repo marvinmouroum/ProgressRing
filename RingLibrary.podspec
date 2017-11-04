@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
    #s.source       = { :path => '.' }
 
 	#s.source_files = "ProgressRing", "RingLibrary/*.{h,m,swift}"
-         s.vendored_frameworks = 'RingLibrary/RingLibrary.framework'
+         s.vendored_frameworks = "RingLibrary/RingLibrary.framework"
 	#s.libraries = "iconv", "xml2"
 
    s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
