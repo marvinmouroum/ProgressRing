@@ -3,6 +3,8 @@ An IOS swift framework which lets you combine a UIButton with an animatable prog
 
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/28195629/32409789-ecd47412-c1b2-11e7-84a8-81e9acdc9e19.gif)
 
+Clone this directory and use RingLibrary.framework file in your XCode project.
+
 Example Implementation:
 
         //defining a frame for the ring
