@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/marvinmouroum/ProgressRing.git", :tag => "1.0.1" }
    #s.source       = { :path => '.' }
 
-	s.ios.vendored_frameworks =  = 'RingLibrary.framework'
-	s.libraries = "iconv", "xml2"
+	s.vendored_frameworks = 'RingLibrary/RingLibrary.framework'
+	#s.libraries = "iconv", "xml2"
 
    s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
 

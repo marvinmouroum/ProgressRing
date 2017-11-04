@@ -1,0 +1,11 @@
+framework module RingLibrary {
+  umbrella header "RingLibrary.h"
+
+  export *
+  module * { export * }
+}
+
+module RingLibrary.Swift {
+    header "RingLibrary-Swift.h"
+    requires objc
+}
